@@ -19,6 +19,11 @@ const ProductsCard = ({ product }) => {
 				<p className='line-clamp-2 text-sm text-gray-500'>
 					{product.description}
 				</p>
+				<div className='p-3'>
+				<p className='line-clamp-2 text-lg text-black-800'>
+					{product.price}$
+				</p>
+			</div>
 			</div>
 		</Link>
 	);

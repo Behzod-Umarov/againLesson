@@ -7,22 +7,6 @@ import {
 import useDebounce from '../hooks/useDebounce';
 
 const Home = () => {
-	// const formSubmit = async e => {
-	// 	e.preventDefault();
-	// 	const formData = new FormData(e.target);
-	// 	const title = formData.get('title');
-	// 	const res = await addProduct({ title });
-	// 	console.log(res);
-	// };
-	// <form className='flex justify-center gap-4 mb-10' onSubmit={formSubmit}>
-	// 			<input
-	// 				type='text'
-	// 				className='border px-2 rounded'
-	// 				placeholder='Title'
-	// 				name='title'
-	// 			/>
-	// 			<button className='bg-black text-white rounded px-5 py-1.5'>Add</button>
-	// 		</form>
 	const [page, setPage] = useState(0);
 	const [pageS, setPageS] = useState(0);
 	const [sortedProducts, setSortedProducts] = useState(null);
